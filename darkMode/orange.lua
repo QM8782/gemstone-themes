@@ -1,6 +1,6 @@
 --- Dark theme for Gemstone.
 -- @module theme-darkOrange
--- @author znepb
+-- @author QuickMuffin8782
 
 return {
   button = {
@@ -9,11 +9,11 @@ return {
     clickBorderColor = colors.orange
   },
   contextMenu = {
-    background = colors.red,
-    disabled = colors.pink,
+    background = colors.gray,
+    disabled = colors.lightGray,
     active = colors.white,
-    selected = colors.white,
-    selectedText = colors.red
+    selected = colors.orange,
+    selectedText = colors.black
   },
   dialog = {
     backgroundColor = colors.black,
