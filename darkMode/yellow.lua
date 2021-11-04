@@ -1,5 +1,5 @@
 --- Dark theme for Gemstone.
--- @module theme-darkOrange
+-- @module theme-darkYellow
 -- @author QuickMuffin8782
 
 return {
