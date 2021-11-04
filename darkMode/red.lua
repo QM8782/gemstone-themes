@@ -1,5 +1,5 @@
---- A base light theme.
--- @module theme-light
+--- Dark theme for Gemstone.
+-- @module theme-darkRed
 -- @author znepb
 
 return {
@@ -23,20 +23,20 @@ return {
     sub = {
       button = {
         buttonColor = colors.white,
-        textColor = colors.black,
-        clickBorderColor = colors.gray,
-        buttonBorder = colors.lightGray
+        textColor = colors.red,
+        clickBorderColor = colors.white,
+        buttonBorder = colors.pink
       }
     }
   },
   input = {
-    backgroundColor = colors.white,
-    borderColor = colors.lightGray,
-    borderColorActive = colors.gray,
-    textColor = colors.gray,
-    placeholderColor = colors.lightGray
+    backgroundColor = colors.red,
+    borderColor = colors.pink,
+    borderColorActive = colors.white,
+    textColor = colors.white,
+    placeholderColor = colors.pink
   },
   text = {
-    color = colors.gray
+    color = colors.white
   }
 }
