@@ -1,42 +1,45 @@
 --- Dark theme for Gemstone.
 -- @module theme-darkRed
--- @author znepb
+-- @author QuickMuffin8782
 
 return {
   button = {
     buttonColor = colors.gray,
     textColor = colors.white,
-    clickBorderColor = colors.lightGray
+    clickBorderColor = colors.orange
   },
   contextMenu = {
-    background = colors.red,
-    disabled = colors.pink,
+    background = colors.gray,
+    disabled = colors.lightGray,
     active = colors.white,
-    selected = colors.white,
-    selectedText = colors.red
+    selected = colors.red,
+    selectedText = colors.white
   },
   dialog = {
-    backgroundColor = colors.red,
-    borderColor = colors.pink,
+    backgroundColor = colors.black,
+    borderColor = colors.red,
     textColor = colors.white,
-    titleColor = colors.pink,
+    titleColor = colors.red,
     sub = {
       button = {
         buttonColor = colors.white,
         textColor = colors.red,
-        clickBorderColor = colors.white,
-        buttonBorder = colors.pink
+        clickBorderColor = colors.lightGray,
+        buttonBorder = colors.white
       }
     }
   },
   input = {
-    backgroundColor = colors.red,
-    borderColor = colors.pink,
-    borderColorActive = colors.white,
+    backgroundColor = colors.black,
+    borderColor = colors.white,
+    borderColorActive = colors.red,
     textColor = colors.white,
-    placeholderColor = colors.pink
+    placeholderColor = colors.gray
   },
   text = {
     color = colors.white
+  },
+  background = {
+    color = colors.black
   }
 }
